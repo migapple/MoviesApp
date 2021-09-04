@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("Hello, World!!")
             
         // we will remove this code. Only for testing the http client
         .onAppear {

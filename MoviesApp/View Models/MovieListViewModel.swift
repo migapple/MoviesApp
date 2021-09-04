@@ -16,7 +16,9 @@ class MovieListViewModel: ObservableObject {
     
     func searchByName(_ name: String) {
         
-        httpClient.getMoviesBy(search: name) { result in 
+        if name.isEmpty { return }
+        
+        httpClient.getMoviesBy(search: name.trimmedAndEscaped()) { result in
             switch result {
             case .success(let movies):
                 if let movies = movies {

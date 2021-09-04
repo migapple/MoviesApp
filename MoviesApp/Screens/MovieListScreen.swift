@@ -19,7 +19,8 @@ struct MovieListScreen: View {
     var body: some View {
         VStack {
             MovieListView(movies: self.movieListVM.movies)
-        }
+                .navigationBarTitle("Movies")
+        }.embedNavigationView()
     }
 }
 

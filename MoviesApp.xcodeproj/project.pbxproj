@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		53F3ECF326E37D340069EB22 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3ECF226E37D340069EB22 /* MovieDetail.swift */; };
+		53F3ECF526E37E5D0069EB22 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3ECF426E37E5D0069EB22 /* MovieListView.swift */; };
 		8D03D0E024D4809F0002AF1B /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03D0DF24D4809F0002AF1B /* MovieListViewModel.swift */; };
 		8D7ACB4124D1E4B100644453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7ACB4024D1E4B100644453 /* AppDelegate.swift */; };
 		8D7ACB4324D1E4B100644453 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7ACB4224D1E4B100644453 /* SceneDelegate.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		53F3ECF226E37D340069EB22 /* MovieDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		53F3ECF426E37E5D0069EB22 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		8D03D0DF24D4809F0002AF1B /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
 		8D7ACB3D24D1E4B100644453 /* MoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7ACB4024D1E4B100644453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		8D7ACB5424D1E4DD00644453 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				53F3ECF426E37E5D0069EB22 /* MovieListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				8D7ACB4324D1E4B100644453 /* SceneDelegate.swift in Sources */,
 				8D03D0E024D4809F0002AF1B /* MovieListViewModel.swift in Sources */,
 				8D7ACB6C24D2213500644453 /* URL+Extensions.swift in Sources */,
+				53F3ECF526E37E5D0069EB22 /* MovieListView.swift in Sources */,
 				8D7ACB6824D1F81000644453 /* Movie.swift in Sources */,
 				8D7ACB4524D1E4B100644453 /* ContentView.swift in Sources */,
 			);
